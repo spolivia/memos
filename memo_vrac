@@ -1,0 +1,30 @@
+*********************************************MEMO******************************************
+
+///////// COMMANDES /////////
+wpa_gui = visionner Wifi
+
+
+////////// DAEMON ///////////
+/etc/init.d/ntp-client start = remettre l'ordi  l'heure 
+/etc/init.d/net.enp2s0 start = allumer carte reseau
+
+
+
+////// OU TROUVER INFO ///////
+Informations pc --> cat /proc/cpuinfo
+
+
+
+///// SPECIFIQUE GENTOO //////
+Ajouter fichier dans /etc/portage/package.use
+Nommer le fichier nomdupaquet.use
+Ajouter le noms de uses a ajouter a la suitre avec des espaces ex :
+[x11-terms/rxvt-unicode xft unicode3 blink]
+
+///// OUTILS UTILES
+a2ps -2 *.h  --> outil pour sortir en version propre tous les .h 
+
+ps2pdf =outil pour convertir ps en pdf  
+
+
+export PS1="ZBEUB $PS1" --> mettre un texte avant  le nom de base dans un terminal 

@@ -1,0 +1,19 @@
+
+
+Lister les appareils disponibles :
+
+# spoticli_get_devices 
+
+Lire la musique sur l'un d'eux :
+Récupérer le champ ID -->
+
+# spoticli_transfer_to_device ID
+
+Chercher l'uri d'un morceau : 
+
+# spoticli_search [truc à chercher]
+
+
+
+
+

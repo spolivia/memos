@@ -1,0 +1,17 @@
+DESCRIPTION D UN FICHIER MAKEFILE 
+CC = gcc --> compilateur utilise
+CFLAGS = `pkg-config --cflags gtk+-2.0` --> ou trouver info
+LDFLAGS = `pkg-config --libs gtk+-2.0` --> ou trouver librairies 
+
+test_troll: troll.o --> pour creer l'executable test_troll il faut avoir troll.o
+	$(CC) -o $@ $^ $(LDFLAGS) --> test_troll va se creer avec cette ligne 
+
+%.o: %.c --> pour creer .o il faut un .c 
+	$(CC) -c $^ $(CFLAGS) --> .c se creer avec cette ligne 
+
+--> Si on fait make clean les actions suivantes sont executees 
+.PHONY: clean 
+clean:
+	rm -f *.o 
+	rm -f test_troll
+	rm -f *~

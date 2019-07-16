@@ -1,0 +1,70 @@
+************************* MEMO VIM *********************************
+
+Mode commande : [echap]
+Mode insertion : [i]
+Mode visuel : [v]
+
+On fait l'action sur la ligne : doubler la commande (d devient dd) 
+Faire l'action sur la ligne APRES : MAJUSCULE 
+Faire l'action sur la ligne AVANT : MINUSCULE  
+
+/////COPIER COLLER ETC//////
+
+d = couper
+p = coller
+y = copier
+
+selectionner : V (grand V : selection par ligne) : permet de selectionner plusieurs lignes
+
+
+
+dw = efface le mot jusqu'au suivant 
+di" = delete inside guillement, supprime tout ce qu'il ya entre les guillemets 
+d$ = supprimer jusqu'a la fin de la ligne 
+
+/ = chercher
+n = trouver le mot suivant
+N = trouver le mot precedent 
+:%s/cherche/remplacement/g = chercher et remplacer un mot par un autre
+%s : dans tout le fichier 
+même syntaxe que SED ! 
+
+
+u = annuler derniere action
+ctrl + r = remettre derniere action annulee
+
+/////SE DEPLACER/////
+
+:4 = aller a la ligne 4
+:q = sortir 
+:q! = sortir sans sauvegarder 
+:wq = sortier et sauvegarder 
+
+gg = va au premier caractere de la PREMIERE ligne
+G = va au premier caractere de la DERNIERE ligne 
+
+
+//////BUFFERS//////
+Buffer = C'EST QU'UNE VUE 
+
+:ls = liste fichiers ouvert 
+:b2 = passer au nde buffer 2 
+:bn = passer au buffer suivant 
+:bp = passer aubuffer avant 
+
+///// GESTION FENETRE ////
+ctrl + w puis v ou s = v pour vertical s pour split : OUVRIR une seconde fenere 
+passer à droite ou à cgauche ctrl + w puis fleche 
+ctrl + w + c = fermer la fenetre 
+
+//RESIZE FENETRE 
+:vertical resize 100
+
+
+
+à aller voir : vim session file  
+https://www.homedruon.com/depot/ 
+--> livres/books/mastering_vim/standards
+
+
+

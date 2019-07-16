@@ -1,0 +1,12 @@
+Compilation : 
+gcc -o test test.c `pkg-config --libs --cflags gtk+-2.0`
+
+
+SEGMENT FAULT REACTION  : 
+
+Compilation avec -g en +
+gdb ./test
+tu tapes run
+il demarre
+il plante
+et si tu tapes bt (backtrack) il te dit dans quelle fonction il a plante

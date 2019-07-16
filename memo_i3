@@ -1,0 +1,55 @@
+*****RACCOURCIS I3*****
+----Légende----
+w --> touche Windows 
+
+
+---------------------
+x + shift + E = QUITTER 
+w + Echap = verouiller
+w + F = full screen
+
+w + W = changer le Wallpaper
+w + <-- touche retour = ouvrir un Firefox 
+w + entrée = ouvrir une fenêtre
+w + P = ouvrir recherche programme 
+
+w + ctrl + fleche de gauche/droite = envoyer tout le bureau sur l'autre écran
+w + V = prochaine fenêtre en mode VERTICAL
+w + H = prochaine fenêtre en mode HORIZONTAL
+w + E = inversion du mode de Horizontal à Vertical
+w + S = Mode Stack 
+
+w + shift + R = MàJ / reboot interface 
+w + X = MàJ / reboot barre en haut
+
+
+
+-------------------------
+w + shift + space = mode flottant
+    EN FLOTTANT :
+        - w + espace passer de la fenêtre flottant à la fenêtre stackée 
+
+
+
+*****MODES*****
+
+echap = mode NORMAL
+w + R = mode RECISE --> agrandir, diminuer les fenêtre avec les flèches
+w + g = mode GAPS --> augmenter, diminuer les trous entre les fenêtres 
+w + m = mode musique --> /.config/i3/config 
+
+
+
+***** FICHIER DE CONFIGURATION *****
+.config/i3/config --> fichier de configuration principal i3 
+~/.env/wallpaper --> dépot wallpaper 
+.env/i3script --> script bloc barre menu
+~/.i3blocks.conf --> bloc barre menu 
+.config/dunst/dunstrc --> éditer les notifications 
+
+
+
+***** EXTRA *****
+notify-send "msg" 
+xev = commande pour voir tous les evenements qui arrivent --> connaître les touches qui s'activent 
+
