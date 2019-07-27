@@ -1,0 +1,5 @@
+Définir la couleur d'autocompletion : 
+set fish_color_autosuggestion red --bold
+
+Accès à la configuration web : 
+fish_config 
