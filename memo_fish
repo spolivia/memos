@@ -2,4 +2,8 @@ Définir la couleur d'autocompletion :
 set fish_color_autosuggestion red --bold
 
 Accès à la configuration web : 
-fish_config 
+fish_config
+
+Compiler avec FISH (pb de quote etc)
+
+gcc -o test example1.c (pkg-config --cflags --libs gtk+-3.0 | string split " ")  

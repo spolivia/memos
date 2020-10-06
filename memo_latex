@@ -1,0 +1,20 @@
+Intégrer une figure :
+
+\begin{figure}[!h] //Force la figure à être "here" avec le !
+\centering //Met la figure au centre 
+\includegraphics[scale=0.3]{../images/schema_ruche/supportrucheplate1.JPG} //Intégre une image
+\includegraphics[scale=0.3]{../images/schema_ruche/supportrucheplate.JPG}
+\caption{Schéma 3D de la ruche plate} //Légence
+\label{rpz_ruche} //Label pour y faire référence 
+\end{figure}
+
+Faire une référence : 
+\ref{rpz_ruche}
+--> rpz_ruche = label écrit 
+
+Faire une note en bas de page : 
+\footnote{}
+
+Faire un trait en pointillés : 
+\dotfill
+
